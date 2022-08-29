@@ -1,0 +1,21 @@
+; CODE TO DETERMINE THE SERIES 1^2 + 2^2 + 3^2 + ...
+
+
+CODE SEGMENT
+    ASSUME CS:CODE, DS:CODE
+    
+    MOV CX, 5; SERIES SUMMATION UPTO 5TH TERM
+    
+    XOR BX, BX
+    MOV AX, 1H
+    
+    L1: MOV AX, CX; VALUE OF CX IS TRANSFERRED TO AX 
+    MUL AX; AX = AX*AX
+    ADD BX, AX; BX = BX+AX
+    LOOP L1
+    
+    HLT
+    
+    CODE ENDS
+END
+    

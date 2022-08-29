@@ -1,0 +1,20 @@
+ ; THIS CODE IS TO DETERMINE THE FACTORIAL OF A NUMBER
+
+
+CODE SEGMENT
+    ASSUME CS:CODE, DS:CODE
+    
+    
+    MOV AX, 1H; PRODUCT TO BE STORED
+    MOV CX, 5H; FACTORIAL OF 5
+    
+    L1: MUL CX
+    LOOP L1
+    
+    HLT
+    
+    CODE ENDS
+END
+    
+    
+

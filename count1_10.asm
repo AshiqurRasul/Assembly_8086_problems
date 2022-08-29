@@ -1,0 +1,15 @@
+;SUMMATION OF NUMBERS FROM 1 TO 1
+
+CODE SEGMENT 
+    ASSUME CS:CODE,DS:CODE
+    
+    MOV CX, 10
+    XOR AX, AX
+    
+    L1: ADD AX, CX
+    LOOP L1
+    
+    HLT
+    CODE ENDS
+END
+
