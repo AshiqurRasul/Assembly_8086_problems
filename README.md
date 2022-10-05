@@ -19,3 +19,4 @@ Content:
 13. sorting.asm -> sorts a random array in descending order
 14. square_series.asm -> calculates the sum of the following series: 1^2 + 2^2 + 3^2 + ....
 15. string_reversed.asm -> checks if a string is pallindrome or not.
+16. FAHRENHEIT_CELSIUS_CONVERTER.asm -> convert fahrenheit scale to celsius scale
