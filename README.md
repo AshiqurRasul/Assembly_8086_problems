@@ -2,7 +2,9 @@
 Contains assembly language codes for microprocessor and embedded systems course
 
 Content:
-01.32-32_multiplication_1.asm -> multiplication of two 32 bit numbers\n
+01.32-32_multiplication_1.asm -> multiplication of two 32 bit numbers
+
+
 02. 32_bit_addition.asm -> addition of two 32 bit numbers
 03. MATRIX_TRANSPOSE.asm -> creates the transpose of 3X3 matrix into another matrix
 04. MULTIPLICATION_WITH_ADD_SHIFT.asm -> multiplication of two 8 bit numbers with binary shifting and addition
